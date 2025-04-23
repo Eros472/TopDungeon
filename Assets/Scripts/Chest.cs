@@ -19,11 +19,11 @@ public class Chest : Collectable
 
             // Save the state
             GameManager.instance.SaveState();
+            
             //+5 pesos
             GameManager.instance.ShowText("+" + pesosAmount + "pesos!", 25, Color.yellow, transform.position, Vector3.up * 25, 1.5f);
             //Debug.Log("Grant " + pesosAmount + " pesos!");
             //Debug.Log("Total Pesos: " + GameManager.instance.pesos);
         }
     }
-
 }

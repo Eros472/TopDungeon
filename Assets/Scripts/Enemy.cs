@@ -62,7 +62,8 @@ public class Enemy : Mover
 
         if (distance < chaseLength)
         {
-            chasing = distance < triggerLength;
+            if (distance < triggerLength)
+                chasing = true;
 
             if (chasing && !collidingWithPlayer)
             {
@@ -98,15 +99,7 @@ public class Enemy : Mover
     protected override void Death()
     {
         Destroy(gameObject);
-        GameManager.instance.experience += xpValue;
-        GameManager.instance.ShowText(
-            "+" + xpValue + "xp",
-            30,
-            Color.magenta,
-            transform.position,
-            Vector3.up * 40,
-            1.0f
-        );
+        GameManager.instance.GrantXp(xpValue);
+        GameManager.instance.ShowText("+" + xpValue + " xp", 30, Color.magenta, playerTransform.position, Vector3.up * 40, 1.0f);
     }
 }
-

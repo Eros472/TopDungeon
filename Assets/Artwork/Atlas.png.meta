@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 95
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1428,7 +1428,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1436,6 +1436,90 @@ TextureImporter:
       bones: []
       spriteID: fba661c491efc7a4eb21c47ce22c4f2f
       internalID: 1785855682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 58
+        width: 12
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb1fd8f73814126b759395ea993f86
+      internalID: 870380916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c762368829c643fda1f9188183b1f5b
+      internalID: 1120273879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68075d8657904a54baf728391f4ef64
+      internalID: 552059015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a0206e5a7d949a7a00f985b285522b
+      internalID: -1805423430
       vertices: []
       indices: 
       edges: []
@@ -1451,6 +1535,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Atlas_0: 870380916
+      boss_0: 552059015
       chest_0: -1892131337
       chest_1: -1774355948
       crate_0: 1229855637
@@ -1458,6 +1544,7 @@ TextureImporter:
       crate_2: -1327937731
       crate_3: -2146828696
       enemy_0: 1785855682
+      enemy_1: -1805423430
       floor_0: 84644927
       floor_1: 1439771526
       floor_10: -65306875
@@ -1474,6 +1561,7 @@ TextureImporter:
       healingFountain_0: 352650853
       healingFountain_1: 39659773
       healingFountain_2: -919932269
+      menu_0: 1120273879
       pillar_0: 2043817293
       pillar_1: 632003142
       pillar_3: 1750786766
